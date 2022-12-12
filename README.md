@@ -67,4 +67,4 @@ The text view and svg view loop through all shapes and animations and use getter
 The visual and playback views use Java Swing to animate. The playback view is a more complex version of the visual view. Both use the Swing Timer to increment through the frames of the animation. The timer is handled by the controller which computes an updated list of shapes with their animated values at a snapshot in time. This list gets sent to a JPanel to paint the shapes.
 
 ## Other contributors
-The files AnimationBuilder.java and AnimationReader.java in the util file were created by the class's instructor, John Wilder.
+The files AnimationBuilder.java and AnimationReader.java in the util folder were created by the class's instructor, John Wilder.
