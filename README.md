@@ -1,5 +1,5 @@
 # Easy Animator
-OOD class project that uses the MVC and Swing to create an animator with multiple views.
+Object Oriented Design class project that uses the MVC and Swing to create an animator with multiple views.
 
 Easy Animator is a Java program that creates animations from a text file. The program can output multiple types of views:
 1) Visual: plays an animation once through at a given speed.
@@ -65,3 +65,6 @@ The controller manages data retrieval from the model for the view. All data stru
 The text view and svg view loop through all shapes and animations and use getter methods to populate a string with information about the shapes and animations. The string gets appended to an Appendable object, which can be either the console or a file (using a FileWriter object).
 
 The visual and playback views use Java Swing to animate. The playback view is a more complex version of the visual view. Both use the Swing Timer to increment through the frames of the animation. The timer is handled by the controller which computes an updated list of shapes with their animated values at a snapshot in time. This list gets sent to a JPanel to paint the shapes.
+
+## Other contributors
+The files AnimationBuilder.java and AnimationReader.java in the util file were created by the class's instructor, John Wilder.
